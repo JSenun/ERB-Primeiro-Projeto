@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ERB</title>
+</head>
+<body>
+    <h1 class="title">Estruturador de Referências Bibliográficas</h1>
+    <h3 class="subtitle">Escolha o tipo de Referência ABNT que você deseja Estruturar:</h3>
+    <div class="buttons">
+        <button id="button1" class="btn1" >Livro com apenas um autor</button>
+        <button id="button2" class="btn1" >Livro com autor desconhecido</button>
+        <button id="button3" class="btn1" >Artigo periódico ou revista</button>
+        <button id="button4" class="btn1" >Artigo apresentado em um evento ou congresso</button><br>
+        <button id="button5" class="btn2" >Referência de monografia, dissertação ou tese</button>
+        <button id="button6" class="btn2" >Obras coletivas ou de autoria de entidades</button>
+        <button id="button7" class="btn2" >Referências de sites com Autor</button>
+        <button id="button8" class="btn2" >Referências de sites sem Autor</button><br>
+        <script src="js/index_js.js"></script>
+    </div>
+    <h3 class="result_title">Resultado:</h3>
+    <div class="result">
+        <input id="result" type="text" class="output"><br>
+        <button id="copy" class="buttonC" onclick="copiar()">Copiar!</button>
+    </div>
+</body>
+</html>

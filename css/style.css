@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(144, 167, 194);
+    color: white;
+    max-width: 1250px;
+}
+
+.buttons{
+  max-width: 1250px;
+  margin: 10px;
+  background-color: rgb(144, 167, 194);
+}
+/*Usei 2 class diferentes para os botões para poder arrumar a posição deles e deixar as linhas paralelas, não sei se tem solução melhor ainda*/
+.btn1{
+    background-color: rgb(87, 177, 250);
+    color: white;
+    font-weight: bolder;
+    padding: 6px;
+    margin: 10px;
+    padding-left: 35px;
+    padding-right: 33px;
+    border-radius: 10px;
+}
+.btn2{
+    background-color: rgb(87, 177, 250);
+    color: white;
+    font-weight: bolder; 
+    padding: 6px;
+    margin: 10px;
+    padding-left: 19px;
+    padding-right: 19px;
+    border-radius: 10px;
+}
+
+
+.result{
+    padding-top: 5px;
+    margin: 5px;
+}
+.output{
+    width: 1000px;
+    height: 100px;
+    border-radius: 15px;
+    padding: 6px;
+    margin: 10px;
+    margin-left: 15px;
+}
+
+.buttonC{
+    width: 1015px;
+    background-color: rgb(87, 177, 250);
+    color: white;
+    font-weight: bolder; 
+    font-size: 20px;
+    padding: 6px;
+    margin: 10px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+.title{
+    text-align: center;
+    font-weight: bolder; 
+    font-size: 30px;
+    background-color: rgb(224, 223, 223);
+    color: rgb(39, 142, 226);
+    font-weight: bolder; 
+    padding: 6px;
+    margin: 10px;
+    margin-left: 15px;
+    border: 3px grey solid;
+    border-radius: 10px;
+}
+
+.subtitle{
+    text-align: center;
+    font-weight: bolder; 
+    font-size: 25px;
+    background-color: rgb(224, 223, 223);
+    color: rgb(39, 142, 226);
+    font-weight: bolder; 
+    padding: 6px;
+    margin: 10px;
+    margin-left: 15px;
+    border: 3px grey solid;
+    border-radius: 10px;
+}
+
+.result_title{
+    font-weight: bolder; 
+    font-size: 25px;
+    background-color: rgb(224, 223, 223);
+    color: rgb(39, 142, 226);
+    font-weight: bolder; 
+    padding: 6px;
+    margin: 10px;
+    margin-left: 15px;
+    border: 3px grey solid;
+    border-radius: 10px;
+}
